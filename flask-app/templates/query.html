@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Flask + GPT-Index</title>
+</head>
+<body>
+    <h1>Flask + GPT-Index</h1>
+
+    <p>Query: {{query}}</p>
+
+    <p>Response: <pre>{{response}}</pre></p>
+
+    <h2>Ask another question</h2>
+
+    <form action="/query">
+        <label for="query-input">Ask a question:</label>
+        <input id="query-input" name="q" />
+        <button>Ask</button>
+    </form>
+</body>
+</html>

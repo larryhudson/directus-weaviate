@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Flask + GPT-Index</title>
+</head>
+<body>
+    <h1>Flask + GPT-Index</h1>
+
+    <h2>Add a URL</h2>
+
+    <form action="/add-url">
+        <label for="url-input">URL:</label>
+        <input id="url-input" name="url" />
+        <button>Add</button>
+    </form>
+
+    <h2>Ask a question</h2>
+
+    <form action="/query">
+        <label for="query-input">Ask a question:</label>
+        <input id="query-input" name="q" />
+        <button>Ask</button>
+    </form>
+
+</body>
+</html>
